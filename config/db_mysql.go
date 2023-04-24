@@ -43,7 +43,7 @@ func InitDB() {
 	// )
 
 	var err error
-	DB, err = gorm.Open("mysql", "root:mypassword@tcp(c-mysql:3307)/crud_go")
+	DB, err = gorm.Open("mysql", "root:12345678@tcp(c-mysql:3306)/crudgo")
 	if err != nil {
 		panic(err)
 	}
